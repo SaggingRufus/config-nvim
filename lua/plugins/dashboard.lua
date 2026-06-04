@@ -9,8 +9,8 @@ return {
       config = {
         shortcut = {
           { desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' },
-          { desc = '󰮗 Find File', group = '@property', action = 'Telescope find_file', key = 'f' },
-        },
+	  { desc = '  File Broswer', group='@property', action = 'Neotree toggle current reveal_force_cwd', key = 'b'},
+	},
         mru = { 
           enable = true, 
 	  limit = 5
